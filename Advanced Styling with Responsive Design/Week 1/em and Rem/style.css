@@ -1,0 +1,66 @@
+body {
+    padding: 10px;
+  }
+  
+  .page-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-content {
+    width: 66.66%;
+    padding-right: 10px;
+  }
+  aside {
+    width: calc(33.33% - 10px);
+  }
+  .footer-module {
+    font-size: 0.75rem;
+    flex: 0 0 90%;
+  }
+  
+  .module {
+    border: 1px solid #ccc;
+    background: #eee;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    position: relative;
+    .module-control {
+      margin: -20px -20px 10px -20px;
+    }
+  }
+  
+  .font-size-control {
+    background: #E77E23;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    > * {
+      vertical-align: middle;
+    }
+  }
+  
+  article {
+    font-size: 1.2rem;
+    > h3 {
+      font-size: 1.5em;
+      margin: 0 0 0.5em;
+    }
+    > time {
+      font-size: 0.9em;
+      color: #999;
+      display: block;
+    }
+    > footer {
+      border-top: 1px solid #ccc;
+      padding-top: 0.5em;
+      font-size: 0.8em; 
+    }
+  }
+  
+  aside .module {
+    font-size: 0.9rem;
+    > h3 {
+      font-size: 1.4em;
+      margin: 0 0 0.4em 0;
+    }
+  }
